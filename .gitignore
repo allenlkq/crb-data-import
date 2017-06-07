@@ -14,3 +14,5 @@
 .glide/
 csv/
 output.*.sql
+.idea/
+*.iml
