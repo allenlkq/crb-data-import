@@ -46,6 +46,8 @@ type session struct {
 	Lesson		string
 	CurriculumId	string
 	SessionId	string
+	EventId		string
+	Class		string
 	ClassId		string
 	School		string
 }
@@ -121,6 +123,8 @@ func main() {
 				Lesson: "Lesson " + strconv.Itoa(lessonCount),
 				CurriculumId: s.CurriculumId,
 				SessionId: "s" + uniqueId(),
+				EventId: "E" + uniqueId(),
+				Class: s.Class,
 				ClassId: s.ClassId,
 				School: s.School,
 			}

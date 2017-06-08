@@ -5,3 +5,5 @@ name, description, start_time, end_time, address, tenant_id, status)
 values ('{{.SessionId}}', @programmeid,'{{.CurriculumId}}', @schoolid, @lessonid,'{{.ClassId}}', @teacherid,
 '{{.Lesson}}','{{.Lesson}}', '{{.StartTime}}', '{{.EndTime}}', '{{.School}}','58ec49e2b8fa1', 'active');
 
+insert into event_5 (id, name, type, start_time, end_time, relevant_id, tenant_id, status)
+values ('{{.EventId}}', '{{.Class}} {{.Lesson}}','session', '{{.StartTime}}', '{{.EndTime}}', '{{.SessionId}}','58ec49e2b8fa1', 'active');
