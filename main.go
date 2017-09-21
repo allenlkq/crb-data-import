@@ -52,7 +52,7 @@ type session struct {
 	School		string
 }
 
-var ProgName = "LG"
+var ProgName = "AB"
 func main() {
 	// clearing output file
 	outputFile := "output." + ProgName + ".sql"
@@ -132,6 +132,20 @@ func main() {
 			s.Sessions = append(s.Sessions, sess)
 		}
 
+		for ;lessonCount<=60; lessonCount++ {
+			sess := session{
+				StartTime: 0,
+				EndTime: 0,
+				Lesson: "Lesson " + strconv.Itoa(lessonCount),
+				CurriculumId: s.CurriculumId,
+				SessionId: "s" + uniqueId(),
+				EventId: "E" + uniqueId(),
+				Class: s.Class,
+				ClassId: s.ClassId,
+				School: s.School,
+			}
+			s.Sessions = append(s.Sessions, sess)
+		}
 
 		fmt.Printf("%+v\n", s)
 		// now objects are populated, go generate db sql
@@ -148,7 +162,7 @@ func main() {
 			}
 		}
 
-		f.Write([]byte("COMMIT;\n"))
+		f.Write([]byte("\nCOMMIT;\n"))
 
 	}
 }

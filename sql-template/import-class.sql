@@ -78,7 +78,7 @@ INSERT INTO lesson_5 (curriculum_id, name) values (@curriculumid, 'Lesson 60');
 
 /* class */
 SELECT @schoolid := id FROM tenant_5 WHERE name = '{{.School}}';
-SELECT @teacherid := `id` FROM user_5 WHERE name = '{{.Teacher}}';
+SELECT @teacherid := `id` FROM user_5 WHERE name like('{{.Teacher}}%') LIMIT 1;
 SELECT @programmeid := `id` FROM programme_5 WHERE code = '{{.Programme}}';
 SELECT @curriculumid := `id` FROM curriculum_5 WHERE name = '{{.Curriculum}}';
 
