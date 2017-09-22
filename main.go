@@ -52,7 +52,7 @@ type session struct {
 	School		string
 }
 
-var ProgName = "AB"
+var ProgName = "LG"
 func main() {
 	// clearing output file
 	outputFile := "output." + ProgName + ".sql"

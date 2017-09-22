@@ -1,0 +1,707 @@
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f2d1e999', @programmeid, 'AB N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f2e2d735', @programmeid, 'AB K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f2e72bd3', @programmeid, 'AB KINDERGARTEN', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f2ff17ed', @programmeid, 'AB NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f31afd33', @programmeid, 'AB NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f32f1693', @programmeid, 'AB KINDERGARTEN', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3439bbf', @programmeid, 'AB NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3574866', @programmeid, 'AB KINDERGARTEN', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f36a8cff', @programmeid, 'AB N2/K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f37979d0', @programmeid, 'AB N1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f382f63d', @programmeid, 'AB KINDERGARTEN', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f38e9e96', @programmeid, 'AB KINDERGARTEN', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f39a4624', @programmeid, 'AB NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3a65972', @programmeid, 'AB COMPOSITE', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3b44c37', @programmeid, 'AB NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3c51124', @programmeid, 'AB NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3d64d93', @programmeid, 'AB N2 / K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3e6e755', @programmeid, 'AB K1 / K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f3f7bb73', @programmeid, 'AB NA', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f4033ace', @programmeid, 'AB NA', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f40e55ad', @programmeid, 'AB N1/N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f41dbfbf', @programmeid, 'AB K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f41f23b3', @programmeid, 'AB K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f42e8ef9', @programmeid, 'AB NA', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f435bd19', @programmeid, 'AB N1 / N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f4462018', @programmeid, 'AB K1 / K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f456fa24', @programmeid, 'AB N2 TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f4b4485c', @programmeid, 'BUDS K2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f4c91793', @programmeid, 'BUDS K1', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f4d89660', @programmeid, 'BUDS N2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f4e8e373', @programmeid, 'BUDS N1 TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f4fa8278', @programmeid, 'BUDS NURSERY TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f50b1af7', @programmeid, 'BUDS K2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5298ec8', @programmeid, 'BUDS N2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f549404d', @programmeid, 'BUDS K1', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f567826e', @programmeid, 'BUDS K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5733c26', @programmeid, 'BUDS N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f57e20ef', @programmeid, 'BUDS N1/N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f58b608b', @programmeid, 'BUDS K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f599b9e7', @programmeid, 'BUDS N1 TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5a0d388', @programmeid, 'BUDS NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5a275b3', @programmeid, 'BUDS K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5a435a3', @programmeid, 'BUDS N1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5a5a15f', @programmeid, 'BUDS N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5a71e17', @programmeid, 'BUDS NA', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5b467c7', @programmeid, 'BUDS NA', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5bdf276', @programmeid, 'BUDS N2 TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5d0fe46', @programmeid, 'BUDS PG / N', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5e1d2c2', @programmeid, 'BUDS N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f5f32b49', @programmeid, 'BUDS K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f6043070', @programmeid, 'BUDS KINDERGARTEN', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f61447af', @programmeid, 'BUDS NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f622a70c', @programmeid, 'BUDS NA', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f62e860b', @programmeid, 'BUDS N2/K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f6716e9a', @programmeid, 'HOG NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f683228b', @programmeid, 'HOG K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f695ea9c', @programmeid, 'HOG K1/2', '','49.8', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f6b291a3', @programmeid, 'HOG N1/2', '','49.8', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f6ccf451', @programmeid, 'HOG N1A & N1B', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f6e70ac1', @programmeid, 'HOG N2A & N2B', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f74d13f3', @programmeid, 'HOG N1/N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f75d84a4', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f7737dc3', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f78a0b32', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f7a239e0', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f7b9af9c', @programmeid, 'HOG K1 GROUP 1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f7fb351f', @programmeid, 'HOG K2 GROUP 2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f8305025', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f865a147', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f884a9c3', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f8c76e6c', @programmeid, 'HOG K1/K2 GROUP 1', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f91d47e5', @programmeid, 'HOG K1 A', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f985b54e', @programmeid, 'HOG N2 A', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f9a4184b', @programmeid, 'HOG K2 A', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f9c28f34', @programmeid, 'HOG K1 B', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f9dce860', @programmeid, 'HOG N2 B', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391f9fd9343', @programmeid, 'HOG K2 B', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fa15d066', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fa2634fc', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fa388a27', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fa46dc4a', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fa5e612e', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fa746563', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fa8becf4', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391faa3d2ca', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fabc1e88', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fad5d96c', @programmeid, 'HOG K1A', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fae676e7', @programmeid, 'HOG K1B', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391faf95394', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb1184d2', @programmeid, 'HOG K1 GROUP 1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb2202ce', @programmeid, 'HOG NURSERY TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb33a971', @programmeid, 'HOG N1-K2 MIX', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb44eccc', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb626ceb', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb7e3e8b', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb8a5619', @programmeid, 'HOG K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fb967943', @programmeid, 'HOG NURSERY TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fba57494', @programmeid, 'HOG NA', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fbb6dc39', @programmeid, 'HOG K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fbc53b49', @programmeid, 'HOG N2', '','30', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fbd37093', @programmeid, 'HOG NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fbe335b3', @programmeid, 'HOG K1/K2 GROUP 1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fbed6355', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fbfdedc3', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc0e42d9', @programmeid, 'HOG K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc1b0417', @programmeid, 'HOG N1/2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc283087', @programmeid, 'HOG NUR / K MIX CLASS', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc33090c', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc4380e5', @programmeid, 'HOG N2A', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc538a91', @programmeid, 'HOG N2B', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc64522b', @programmeid, 'HOG K1/K2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc74a505', @programmeid, 'HOG K1/K2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc8515f1', @programmeid, 'HOG N1', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fc9592cd', @programmeid, 'HOG N2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fca5cd82', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fcbd168c', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fcd4dde7', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fce56f5e', @programmeid, 'HOG K1/K2 GROUP 1', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fcf9d0cd', @programmeid, 'HOG GROUP 1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd070075', @programmeid, 'HOG GROUP 2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd1363a6', @programmeid, 'HOG GROUP 3', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd1b5dd6', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd2a41c6', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd39a5ed', @programmeid, 'HOG NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd3afaa2', @programmeid, 'HOG N1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd47b932', @programmeid, 'HOG K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fd54537d', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fdac0b01', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fdd67f7d', @programmeid, 'HOG NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fdd7d541', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fde61fe5', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fdf4d5e8', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe06cb47', @programmeid, 'HOG N2- K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe157f76', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe23e9f3', @programmeid, 'HOG N2 TO K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe353464', @programmeid, 'HOG N1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe43f985', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe50cf11', @programmeid, 'HOG N2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe5cda82', @programmeid, 'HOG N2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe693e37', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe7529ca', @programmeid, 'HOG N1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe819900', @programmeid, 'HOG NURSERY/K1', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe8dad18', @programmeid, 'HOG N2 TO K2', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fe996e1c', @programmeid, 'HOG NURSERY', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fea5c315', @programmeid, 'HOG SECONDARY SCHOOL', '','90', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391feb0748b', @programmeid, 'HOG NURSERY', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391febf3465', @programmeid, 'HOG NURSERY', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fece68fd', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fede2bb3', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391feee2bb6', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fefb3081', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff0ba56a', @programmeid, 'HOG K1C', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff1c1312', @programmeid, 'HOG N1A & N1B', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff2cff9e', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff3dda28', @programmeid, 'HOG N2/K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff4e49f6', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff5edc85', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff6acc28', @programmeid, 'HOG K1/K2 AM GROUP 1', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff76ad5f', @programmeid, 'HOG K1/K2 PM GROUP 1', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff82b9d6', @programmeid, 'HOG PG / N1 / N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff918be5', @programmeid, 'HOG K1/2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ff9efabb', @programmeid, 'HOG NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ffad50c0', @programmeid, 'HOG COMPOSITE', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ffbb5cf1', @programmeid, 'HOG NURSERY AM SESSION', '','34.8', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ffc80668', @programmeid, 'HOG K1 AM SESSION', '','40.2', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ffd497de', @programmeid, 'HOG K2 AM SESSION', '','40.2', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ffe1b4e8', @programmeid, 'HOG NURSERY PM SESSION', '','34.8', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391ffed727c', @programmeid, 'HOG K1 PM SESSION', '','40.2', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59391fff9fb40', @programmeid, 'HOG K2 PM SESSION', '','40.2', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920007393a', @programmeid, 'HOG N2/K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392000f23f6', @programmeid, 'HOG NURSERY / K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200114d5f', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920012fa06', @programmeid, 'HOG PN/N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200147e79', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200202ede', @programmeid, 'HOG N2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392002aaa8c', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392003a3619', @programmeid, 'HOG N2, K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920049d178', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920057f4a9', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200668126', @programmeid, 'HOG N2A', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200732d47', @programmeid, 'HOG N1/K1/K2 GROUP 2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392007f11a2', @programmeid, 'HOG N2B', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392008b5108', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200960038', @programmeid, 'HOG K2 GROUP 1 AM', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200adcdde', @programmeid, 'HOG K2 GROUP 2 AM', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200c704b5', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200da62b8', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200e8a359', @programmeid, 'HOG N2C PM', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939200f74a44', @programmeid, 'HOG K1 GROUP 2 PM', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392010bd35d', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392012555ba', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201303eba', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201405f1c', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201505528', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392015c6f0a', @programmeid, 'HOG K2A', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392016d2e49', @programmeid, 'HOG K2B', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392017df10c', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201805e0a', @programmeid, 'HOG NUR', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920181ce69', @programmeid, 'HOG K1', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392018b7bf4', @programmeid, 'HOG NA', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392019a9c14', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201a61b66', @programmeid, 'HOG K1', '','54', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201b40401', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201c3f4db', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939201dc5ddc', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920200f36b', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202174d09', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920224f8c7', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920232744d', @programmeid, 'HOG NURSERY', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920242bc07', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920253a44e', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920263d15b', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202740f5d', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392028673f9', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920298f1a8', @programmeid, 'HOG N2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202ab91c3', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202b99a3d', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202c76c8c', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202d48eb3', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202e268ca', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939202f0ad4e', @programmeid, 'HOG N2', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392030ba1a8', @programmeid, 'HOG K1 / K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920328484b', @programmeid, 'HOG N2/K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm593920338cc24', @programmeid, 'HOG K1/K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392034a795d', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392035f35d6', @programmeid, 'HOG K2', '','49.8', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392037431b2', @programmeid, 'HOG K2', '','54', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392038a0999', @programmeid, 'HOG K1/K2 GROUP 1', '','75', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939203a111ad', @programmeid, 'HOG K2', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939203a86294', @programmeid, 'HOG N2/K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939203b5f650', @programmeid, 'HOG K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939203c61fb0', @programmeid, 'HOG N2 & K1', '','60', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939203d5efcd', @programmeid, 'HOG K2', '','0', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm5939203e61061', @programmeid, 'HOG NA', '','45', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392041eb19e', @programmeid, 'LG SECONDARY SCHOOL', '','90', '58ec49e2b8fa1','active', 3, 12);
+--
+INSERT IGNORE INTO curriculum_5 (id, programme_id, name, description, duration, tenant_id, status, age_min, age_max) VALUES
+('crclm59392042943bd', @programmeid, 'LG PRIMARY SCHOOL', '','120', '58ec49e2b8fa1','active', 3, 12);
