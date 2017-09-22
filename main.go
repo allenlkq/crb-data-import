@@ -9,10 +9,10 @@ import (
 	"strings"
 	"strconv"
 	"time"
-	"os/exec"
-	"log"
 	"text/template"
 	"io/ioutil"
+	"bytes"
+	"math/rand"
 )
 
 /*
@@ -52,14 +52,19 @@ type session struct {
 	School		string
 }
 
-var ProgName = "LG"
 func main() {
+	progNames := [...]string{"AB", "BUDS", "HOG", "LG"}
+	for _, p := range progNames {
+		generateSql(p)
+	}
+}
+
+func generateSql(progName string) {
 	// clearing output file
-	outputFile := "output." + ProgName + ".sql"
+	outputFile := "output." + progName + ".sql"
 	os.Remove(outputFile)
 	os.Create(outputFile)
-	f, _ := os.OpenFile(outputFile, os.O_APPEND|os.O_WRONLY, 0666)
-	defer f.Close()
+
 	// template for curriculum, class, lesson
 	sql, _ := ioutil.ReadFile("sql-template/import-class.sql")
 	classTpl, _ := template.New("classTpl").Parse(string(sql))
@@ -67,12 +72,17 @@ func main() {
 	sql, _ = ioutil.ReadFile("sql-template/import-session.sql")
 	sessionTpl, _ := template.New("sessionTpl").Parse(string(sql))
 
-
-	file, _ := os.Open("csv/" + ProgName + ".csv")
+	// input file
+	file, _ := os.Open("csv/" + progName + ".csv")
 	defer file.Close()
 	reader := csv.NewReader(file)
 	reader.Comma = ','
 	reader.Read() // start from second line
+
+	// output buffer
+	var buf bytes.Buffer
+	buf.Write([]byte("START TRANSACTION;\n"))
+
 	for {
 		row, err := reader.Read()
 		if err == io.EOF {
@@ -83,7 +93,7 @@ func main() {
 		}
 		hours,_ := strconv.ParseFloat(row[5], 64)
 		s := schedule{
-			Programme: ProgName,
+			Programme: progName,
 			Class: strings.TrimSpace(strings.Replace(row[1], "'", "\\'", -1)),
 			Teacher: strings.TrimSpace(row[2]),
 			Duration: hours * 60,
@@ -94,7 +104,7 @@ func main() {
 		r := regexp.MustCompile(`(?P<School>[^\-]+) - (?P<Curriculum>[^(]+)`)
 		m := r.FindStringSubmatch(s.Class)
 		s.School = strings.TrimSpace(m[1])
-		s.Curriculum = ProgName + " " + strings.ToUpper(strings.TrimSpace(m[2]))
+		s.Curriculum = progName + " " + strings.ToUpper(strings.TrimSpace(m[2]))
 		// unique ids for database insertion
 		s.TenantId = uniqueId()
 		s.OrgId = uniqueId()
@@ -149,28 +159,33 @@ func main() {
 
 		fmt.Printf("%+v\n", s)
 		// now objects are populated, go generate db sql
-		f.Write([]byte("START TRANSACTION;\n"))
 		// generate sql for class
-		if err := classTpl.Execute(f, s); err != nil {
+		if err := classTpl.Execute(&buf, s); err != nil {
 			panic(err)
 		}
 
 		// generate sql for session
 		for _, session := range s.Sessions {
-			if err := sessionTpl.Execute(f, session); err != nil {
+			if err := sessionTpl.Execute(&buf, session); err != nil {
 				panic(err)
 			}
 		}
-
-		f.Write([]byte("\nCOMMIT;\n"))
-
 	}
+
+	buf.Write([]byte("\nCOMMIT;\n"))
+
+	f, _ := os.OpenFile(outputFile, os.O_APPEND|os.O_WRONLY, 0666)
+	f.Write(buf.Bytes())
+	defer f.Close()
 }
 
+
+// golang implementation of php unique id
 func uniqueId() string {
-	out, err := exec.Command("sh", "-c", "php -r 'echo uniqid();'").Output()
-	if err != nil {
-		log.Fatal(err)
+	charSet := []rune("0123456789abcdef")
+	b := make([]rune, 13)
+	for i := range b {
+		b[i] = charSet[rand.Intn(len(charSet))]
 	}
-	return string(out)
+	return string(b)
 }
